@@ -1,0 +1,17 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Jenkins_Jobs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+[Jenkins_Jobs] $ /bin/sh -xe /tmp/jenkins5067512890819538556.sh
++ git clone https://github.com/likhith-3399/JenkinsJobs.git
+Cloning into 'JenkinsJobs'...
++ cd JenkinsJobs
++ cp /var/lib/jenkins/config.xml /var/lib/jenkins/hudson.model.UpdateCenter.xml /var/lib/jenkins/hudson.plugins.git.GitTool.xml /var/lib/jenkins/hudson.plugins.gradle.Gradle.xml /var/lib/jenkins/hudson.tasks.Ant.xml /var/lib/jenkins/hudson.tasks.Maven.xml /var/lib/jenkins/jenkins.CLI.xml /var/lib/jenkins/jenkins.mvn.GlobalMavenConfig.xml /var/lib/jenkins/nodeMonitors.xml /var/lib/jenkins/org.jenkinsci.plugins.docker.commons.tools.DockerTool.xml /var/lib/jenkins/org.jenkinsci.plugins.gitclient.JGitApacheTool.xml /var/lib/jenkins/org.jenkinsci.plugins.gitclient.JGitTool.xml /var/lib/jenkins/org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer.xml .
++ cp /var/lib/jenkins/jobs/01_Build_App/config.xml /var/lib/jenkins/jobs/02_Stage_Artifact_to_S3/config.xml /var/lib/jenkins/jobs/Create_Full_Stack/config.xml /var/lib/jenkins/jobs/Create_Test_Stack/config.xml /var/lib/jenkins/jobs/Jenkins_Jobs/config.xml /var/lib/jenkins/jobs/test/config.xml .
+cp: will not overwrite just-created './config.xml' with '/var/lib/jenkins/jobs/02_Stage_Artifact_to_S3/config.xml'
+cp: will not overwrite just-created './config.xml' with '/var/lib/jenkins/jobs/Create_Full_Stack/config.xml'
+cp: will not overwrite just-created './config.xml' with '/var/lib/jenkins/jobs/Create_Test_Stack/config.xml'
+cp: will not overwrite just-created './config.xml' with '/var/lib/jenkins/jobs/Jenkins_Jobs/config.xml'
+cp: will not overwrite just-created './config.xml' with '/var/lib/jenkins/jobs/test/config.xml'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

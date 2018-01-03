@@ -1,0 +1,27 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Create_Test_Stack
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/Deployment.git
+ > git init /var/lib/jenkins/workspace/Create_Test_Stack # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5e361ccefd8443f3a5144bb57ff5bc1712ead0fb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5e361ccefd8443f3a5144bb57ff5bc1712ead0fb
+Commit message: "correcting json"
+ > git rev-list --no-walk 24867bb82735988ceae88820eb8862d6d76e0ee0 # timeout=10
+[Create_Test_Stack] $ /bin/bash /tmp/jenkins8969020097587810258.sh
+Completed 4.5 KiB/4.5 KiB with 1 file(s) remainingupload: cloudformation/ec2_cloudformation.json to s3://cloud-formation-templates-001/cloudformation/ec2_cloudformation.json
+
+An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [MyApp] already exists
+Finished: SUCCESS

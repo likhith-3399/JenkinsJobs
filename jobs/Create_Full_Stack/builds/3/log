@@ -1,0 +1,38 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Create_Full_Stack
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6e898f7b52980df76907583bef08bdb643943248 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6e898f7b52980df76907583bef08bdb643943248
+Commit message: "making ELB external"
+ > git rev-list --no-walk 3ed8bda97bc6ff720bfe0d13d2b2ff4feeb32b8c # timeout=10
+[Create_Full_Stack] $ /bin/sh -xe /tmp/jenkins1890345221235360771.sh
++ sed -e s/:/-/g
++ date +%Y-%m-%d-%T
++ time=2017-12-25-17-49-57
++ route53index=Blue-2017-12-25-17-49-57
++ chmod -R 755 /var/lib/jenkins/workspace/Create_Full_Stack
++ ./scripts/CreateStack.sh MyStack https://s3.amazonaws.com/cloud-formation-templates-001/cloudformation/stack_cloudformation.json Blue-2017-12-25-17-49-57 us-east-1
+Completed 4.4 KiB/20.1 KiB with 4 file(s) remainingupload: cloudformation/asg.json to s3://cloud-formation-templates-001/cloudformation/asg.json
+Completed 4.4 KiB/20.1 KiB with 3 file(s) remainingCompleted 9.3 KiB/20.1 KiB with 3 file(s) remainingupload: cloudformation/stack_cloudformation.json to s3://cloud-formation-templates-001/cloudformation/stack_cloudformation.json
+Completed 9.3 KiB/20.1 KiB with 2 file(s) remainingCompleted 13.8 KiB/20.1 KiB with 2 file(s) remainingupload: cloudformation/ec2_cloudformation.json to s3://cloud-formation-templates-001/cloudformation/ec2_cloudformation.json
+Completed 13.8 KiB/20.1 KiB with 1 file(s) remainingCompleted 20.1 KiB/20.1 KiB with 1 file(s) remainingupload: cloudformation/elb.json to s3://cloud-formation-templates-001/cloudformation/elb.json
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:846095599110:stack/MyStack/05d5d800-e99c-11e7-88d6-500c28b3e2d2"
+}
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+./scripts/CreateStack.sh: line 22:  4281 Terminated              sleep 30
+Terminated
+Build was aborted
+Aborted by [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Finished: ABORTED

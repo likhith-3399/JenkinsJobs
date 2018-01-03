@@ -1,0 +1,55 @@
+commit 0762b6cf4b45c97481500f0136c46a098ca2d786
+tree ccddb67e7d4abcfa5d70d9030afb806ee61d2af2
+parent 142201476dfd0af72a4e6e75f9edde29747e274a
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-21 14:48:25 -0600
+committer GitHub <noreply@github.com> 2017-12-21 14:48:25 -0600
+
+    Update HomeController.java
+
+
+
+:100644 100644 153812361025be17f2269619c22b5d9bfa030b07 7f51c42c71b099e0f7d60c826642a7ecd16555b0 M	src/main/java/com/myTest/IntuitCodingChallenge/HomeController.java
+commit 142201476dfd0af72a4e6e75f9edde29747e274a
+tree f1a53df0f4a4af9649c70334cd46bc3169a166f2
+parent 1cf29c413221e6c876f073b21b3c671058457ea0
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-21 11:58:05 -0600
+committer GitHub <noreply@github.com> 2017-12-21 11:58:05 -0600
+
+    adding console appender
+
+
+
+:100644 100644 ed7e67db1da804a25d47dbcfc96f715872a0daa5 c6559319cb00f4af8d28a6cbd0e12c6bd4dc87e4 M	src/main/resources/logback.xml
+commit 1cf29c413221e6c876f073b21b3c671058457ea0
+tree 9466e918be8921f9dc2529f6660c103c99c93038
+parent 45a929c53439a67a186f178713610826a5ff9395
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 19:08:43 -0600
+committer GitHub <noreply@github.com> 2017-12-20 19:08:43 -0600
+
+    Update README.md
+
+
+
+:100644 100644 b4a2f0ff36df1c2036bb3a1be1c346862a25af6a 0a95bbd81a08884b9d373268d33c8f8e7bf036c5 M	README.md
+commit 45a929c53439a67a186f178713610826a5ff9395
+tree d93c4272f0078240737f86d578c64f08b467c1c0
+parent c0fabfac49d79d9260250098c98e6b94f920df3a
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 19:07:08 -0600
+committer GitHub <noreply@github.com> 2017-12-20 19:07:08 -0600
+
+    Update README.md
+
+
+
+:100644 100644 67f8b52becc609d75fd9f0e2a14c1c127cd2030e b4a2f0ff36df1c2036bb3a1be1c346862a25af6a M	README.md
+commit c0fabfac49d79d9260250098c98e6b94f920df3a
+tree 2a71158083676f3b3613819735953fffb562307b
+parent b2fa6bb0c2740471599cb1168757ae52588e2cc3
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 18:39:47 -0600
+committer GitHub <noreply@github.com> 2017-12-20 18:39:47 -0600
+
+    Update README.md
+
+
+
+:100644 100644 64f143baa1841850dcaf1b1f4b3254c40cc8316f 67f8b52becc609d75fd9f0e2a14c1c127cd2030e M	README.md

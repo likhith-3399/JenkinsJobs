@@ -1,0 +1,42 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Create_Test_Stack
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/Deployment.git
+ > git init /var/lib/jenkins/workspace/Create_Test_Stack # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4b891f296c5b95c339a728e52b6f575ba86ba0ee (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4b891f296c5b95c339a728e52b6f575ba86ba0ee
+Commit message: "Removing duplicate statements"
+ > git rev-list --no-walk 737e56fe614b8fddfdc85fcea0d2061b751f3b4a # timeout=10
+[Create_Test_Stack] $ /bin/sh -xe /tmp/jenkins7022240611481325018.sh
++ sed -e s/:/-/g
++ date +%Y-%m-%d-%T
++ time=2017-12-21-00-33-17
++ route53index=Blue-2017-12-21-00-33-17
++ chmod -R 755 /var/lib/jenkins/workspace/Create_Test_Stack
++ ./scripts/CreateTestInstance.sh MyApp2 us-east-1 https://s3.amazonaws.com/cloud-formation-templates-001/cloudformation/ec2_cloudformation.json Blue-2017-12-21-00-33-17
+Completed 4.5 KiB/4.5 KiB with 1 file(s) remainingupload: cloudformation/ec2_cloudformation.json to s3://cloud-formation-templates-001/cloudformation/ec2_cloudformation.json
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp2/8a132a00-e5e6-11e7-a7aa-500c217dbefe"
+}
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Waiting for Cloud Formation to Complete...
+Finished: SUCCESS

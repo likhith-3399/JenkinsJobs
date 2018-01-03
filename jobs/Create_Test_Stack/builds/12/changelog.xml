@@ -1,0 +1,11 @@
+commit e376746ce6eae367683a4d46589538a6027cc302
+tree a509129a3b881a436c08a6ee44d666e5b62c1480
+parent 23d95f00655ebd25c8fe83f2c27d39ed4613ef15
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 14:44:48 -0600
+committer GitHub <noreply@github.com> 2017-12-20 14:44:48 -0600
+
+    changing the type to CNAME
+
+
+
+:100644 100644 d841d99b87bf99864679bf8d41dc9a651452ab29 1a665452ebd3439f2e84b89853f4c19fff78ca15 M	cloudformation/ec2_cloudformation.json

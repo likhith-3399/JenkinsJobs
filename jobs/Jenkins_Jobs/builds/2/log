@@ -1,0 +1,27 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Jenkins_Jobs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/JenkinsJobs.git
+ > git init /var/lib/jenkins/workspace/Jenkins_Jobs # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/JenkinsJobs.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/JenkinsJobs.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/JenkinsJobs.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/JenkinsJobs.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/JenkinsJobs.git
+ > git fetch --tags --progress https://github.com/likhith-3399/JenkinsJobs.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision be38611ff3f72a7caa832da4ba69b2210304724b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f be38611ff3f72a7caa832da4ba69b2210304724b
+Commit message: "Adding all config xmls manually"
+First time build. Skipping changelog.
+[Jenkins_Jobs] $ /bin/sh -xe /tmp/jenkins3757488395286425426.sh
++ cd JenkinsJobs
+/tmp/jenkins3757488395286425426.sh: 5: cd: can't cd to JenkinsJobs
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,11 @@
+commit 57ed76f43c7ff30d88d817612e9dbd6c669f933b
+tree b4839ffab71ab2218cd5961bcf67b205ec457966
+parent 5e361ccefd8443f3a5144bb57ff5bc1712ead0fb
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 14:34:23 -0600
+committer GitHub <noreply@github.com> 2017-12-20 14:34:23 -0600
+
+    correcting HostedZoneName
+
+
+
+:100644 100644 88efe2fafe57057fc0f7d69eba6590e23a7b6508 21d08a49d4454dccac73020c7bc610066f983f0d M	cloudformation/ec2_cloudformation.json

@@ -1,0 +1,116 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/01_Build_App
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/IntuitCodingChallange.git
+ > git init /var/lib/jenkins/workspace/01_Build_App # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/IntuitCodingChallange.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/IntuitCodingChallange.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/IntuitCodingChallange.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/IntuitCodingChallange.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/IntuitCodingChallange.git
+ > git fetch --tags --progress https://github.com/likhith-3399/IntuitCodingChallange.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b2fa6bb0c2740471599cb1168757ae52588e2cc3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b2fa6bb0c2740471599cb1168757ae52588e2cc3
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk b2fa6bb0c2740471599cb1168757ae52588e2cc3 # timeout=10
+[01_Build_App] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/bin/mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building IntuitCodingChallenge 17.12.01-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ IntuitCodingChallenge ---
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ IntuitCodingChallenge ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 11 resources
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ IntuitCodingChallenge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /var/lib/jenkins/workspace/01_Build_App/target/classes
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ IntuitCodingChallenge ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/01_Build_App/src/test/resources
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ IntuitCodingChallenge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/01_Build_App/target/test-classes
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ IntuitCodingChallenge ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/01_Build_App/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+18:38:13,263 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:38:13,263 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:38:13,263 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/var/lib/jenkins/workspace/01_Build_App/target/classes/logback.xml]
+18:38:13,353 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:38:13,377 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:38:13,379 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [consoleAppender]
+18:38:13,388 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:38:13,454 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+18:38:13,457 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file]
+18:38:13,486 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@25548982 - No compression will be used
+18:38:13,487 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@25548982 - Will use the pattern ../Logs/app_%d{yyyy-MM-dd}.%i.log for the active file
+18:38:13,490 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@67784306 - The date pattern is 'yyyy-MM-dd' from file name pattern '../Logs/app_%d{yyyy-MM-dd}.%i.log'.
+18:38:13,490 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@67784306 - Roll-over at midnight.
+18:38:13,501 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@67784306 - Setting initial period to Wed Dec 20 18:37:07 UTC 2017
+18:38:13,501 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@67784306 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+18:38:13,502 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@67784306 - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+18:38:13,503 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:38:13,507 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - Active log file name: ../Logs/app.log
+18:38:13,507 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - File property is set to [../Logs/app.log]
+18:38:13,508 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.myTest] to false
+18:38:13,508 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.myTest level set to INFO
+18:38:13,512 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[com.myTest]
+18:38:13,513 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+18:38:13,513 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[ROOT]
+18:38:13,513 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:38:13,513 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@335eadca - Registering current configuration as safe fallback point
+
+Running com.myTest.IntuitCodingChallenge.IntuitCodingChallengeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.307 sec - in com.myTest.IntuitCodingChallenge.IntuitCodingChallengeApplicationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ IntuitCodingChallenge ---
+[INFO] Building jar: /var/lib/jenkins/workspace/01_Build_App/target/IntuitCodingChallenge-17.12.01-SNAPSHOT.jar
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:1.5.9.RELEASE:repackage (default) @ IntuitCodingChallenge ---
+[INFO] 
+[8mha:////4CFyMwSYp0mK3P3u4Lf4NATlghvcj9wkgbPsM5DNXdhCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ IntuitCodingChallenge ---
+[INFO] Installing /var/lib/jenkins/workspace/01_Build_App/target/IntuitCodingChallenge-17.12.01-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/myTest/IntuitCodingChallenge/17.12.01-SNAPSHOT/IntuitCodingChallenge-17.12.01-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/01_Build_App/pom.xml to /var/lib/jenkins/.m2/repository/com/myTest/IntuitCodingChallenge/17.12.01-SNAPSHOT/IntuitCodingChallenge-17.12.01-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.070 s
+[INFO] Finished at: 2017-12-20T18:38:24+00:00
+[INFO] Final Memory: 37M/126M
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Triggering a new build of [8mha:////4Cw1rjVn8vd8xmWI/ykbmXcuBs8CF5LtpLhV0PK5xoCHAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZZ/az8JH0Do/jgksT01HjHopLMtMTkkviS/PhgY30AVcVcvNIAAAA=[0m02_Stage_Artifact_to_S3
+Finished: SUCCESS

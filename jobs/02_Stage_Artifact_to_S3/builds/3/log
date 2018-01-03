@@ -1,0 +1,18 @@
+Started by upstream project "[8mha:////4LBvmv7RFmcyvkS3mdwRc0yA/jG2RPaJYBxcLyNoTgkQAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gaG8U6lmTkp8Y4FBfoAEwg3Q8cAAAA=[0m01_Build_App" build number [8mha:////4I+FFtZUmJb2B64E+ZDX1glrNCKBAjqPcP2+qBBp+YpFAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwkfQPDeKfSzJyUeMeCAn1LAHQiC/fIAAAA[0m9
+originally caused by:
+ Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/02_Stage_Artifact_to_S3
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Copied 1 artifact from "[8mha:////4LudS3UIC13mku/XfMUlZzjxE19kd9cbKXPKpxohkUZ/AAAAkh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgAZqhn5WfpG9gGO9UmpmTEu9YUKAPAI7rQIuXAAAA[0m01_Build_App" build number [8mha:////4JaPSIC/TWOoPHGM5ZPUjS5ykWpM4omBf1djE9GzbcUMAAAAlB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYRDRz8pP0jcwjHcqzcxJiXcsKNC31AcAaWVHupkAAAA=[0m9
+[02_Stage_Artifact_to_S3] $ /bin/sh -xe /tmp/jenkins2679613329974400528.sh
++ pwd
+/var/lib/jenkins/workspace/02_Stage_Artifact_to_S3
++ ls -ltr
+total 4
+drwxr-xr-x 2 jenkins jenkins 4096 Dec 20 18:37 target
++ /usr/bin/aws s3 cp **.jar s3://java-artifacts-001/artifacts/ --sse
+
+The user-provided path **.jar does not exist.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

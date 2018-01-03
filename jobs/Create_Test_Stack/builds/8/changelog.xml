@@ -1,0 +1,44 @@
+commit 5e361ccefd8443f3a5144bb57ff5bc1712ead0fb
+tree bedf107bee05d27d560f5014071a1daf69184db0
+parent 21c2ad618d6bfa2d829d388a123a69869da641db
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 14:30:16 -0600
+committer GitHub <noreply@github.com> 2017-12-20 14:30:16 -0600
+
+    correcting json
+
+
+
+:100644 100644 fccb9db79ad6557261dd83b19717b91300e2b0bb 88efe2fafe57057fc0f7d69eba6590e23a7b6508 M	cloudformation/ec2_cloudformation.json
+commit 21c2ad618d6bfa2d829d388a123a69869da641db
+tree 5718d19db93d3a4d9d867043e0276afb0bba6439
+parent 90295f59bf86ae4530f96eceec5ba5474b739815
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 14:27:54 -0600
+committer GitHub <noreply@github.com> 2017-12-20 14:27:54 -0600
+
+    Update ec2_cloudformation.json
+
+
+
+:100644 100644 77c9ee1a971ff17a832dfae96372431b4591ca6b fccb9db79ad6557261dd83b19717b91300e2b0bb M	cloudformation/ec2_cloudformation.json
+commit 90295f59bf86ae4530f96eceec5ba5474b739815
+tree d97afada8785ae61ef7a6e91bf1f39abd5f01b07
+parent 17ae4717ea1f01b502e521ee5ca64a0c9ea017d4
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 14:20:41 -0600
+committer GitHub <noreply@github.com> 2017-12-20 14:20:41 -0600
+
+    adding Route53
+
+
+
+:100644 100644 5b0c0b7eac7aa9e3ad625dec9ecd1a603e6d8b82 77c9ee1a971ff17a832dfae96372431b4591ca6b M	cloudformation/ec2_cloudformation.json
+commit 17ae4717ea1f01b502e521ee5ca64a0c9ea017d4
+tree edfa4f58034fc1d3d53859000daf962e186ee3d3
+parent 24867bb82735988ceae88820eb8862d6d76e0ee0
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 12:47:00 -0600
+committer GitHub <noreply@github.com> 2017-12-20 12:47:00 -0600
+
+    adding user-data
+
+
+
+:100644 100644 c77d17ba0b5662b34248472be68faa5a64aa137d 5b0c0b7eac7aa9e3ad625dec9ecd1a603e6d8b82 M	cloudformation/ec2_cloudformation.json

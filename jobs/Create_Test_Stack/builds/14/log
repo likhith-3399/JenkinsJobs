@@ -1,0 +1,45 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Create_Test_Stack
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/Deployment.git
+ > git init /var/lib/jenkins/workspace/Create_Test_Stack # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a018cdc92d478d1ae081f8f7cbc014133eb32e7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a018cdc92d478d1ae081f8f7cbc014133eb32e7a
+Commit message: "Updating the scripts"
+ > git rev-list --no-walk e376746ce6eae367683a4d46589538a6027cc302 # timeout=10
+[Create_Test_Stack] $ /bin/bash /tmp/jenkins2627233568993007371.sh
+Completed 3.9 KiB/18.1 KiB with 4 file(s) remainingupload: cloudformation/asg.json to s3://cloud-formation-templates-001/cloudformation/asg.json
+Completed 3.9 KiB/18.1 KiB with 3 file(s) remainingCompleted 8.4 KiB/18.1 KiB with 3 file(s) remainingupload: cloudformation/ec2_cloudformation.json to s3://cloud-formation-templates-001/cloudformation/ec2_cloudformation.json
+Completed 8.4 KiB/18.1 KiB with 2 file(s) remainingCompleted 12.2 KiB/18.1 KiB with 2 file(s) remainingupload: cloudformation/stack_cloudformation.json to s3://cloud-formation-templates-001/cloudformation/stack_cloudformation.json
+Completed 12.2 KiB/18.1 KiB with 1 file(s) remainingCompleted 18.1 KiB/18.1 KiB with 1 file(s) remainingupload: cloudformation/elb.json to s3://cloud-formation-templates-001/cloudformation/elb.json
+
+HTTPSConnectionPool(host='cloudformation.Blue-2017-12-21-00-21-13.amazonaws.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f32966b06a0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+HTTPSConnectionPool(host='cloudformation.Blue-2017-12-21-00-21-13.amazonaws.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f618b92eb38>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+HTTPSConnectionPool(host='cloudformation.Blue-2017-12-21-00-21-13.amazonaws.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbb8408b38>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+Waiting for Cloud Formation to Complete...
+
+HTTPSConnectionPool(host='cloudformation.Blue-2017-12-21-00-21-13.amazonaws.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7fdb07580b38>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+Waiting for Cloud Formation to Complete...
+
+HTTPSConnectionPool(host='cloudformation.Blue-2017-12-21-00-21-13.amazonaws.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f6f5e348b38>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+Waiting for Cloud Formation to Complete...
+./scripts/CreateStack.sh: line 22: 16627 Terminated              sleep 10
+/tmp/jenkins2627233568993007371.sh: line 6: 16547 Terminated              ./scripts/CreateStack.sh $StackName $Region $CloudFormationTemplateURL ${route53index}
+Build was aborted
+Aborted by [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Finished: ABORTED

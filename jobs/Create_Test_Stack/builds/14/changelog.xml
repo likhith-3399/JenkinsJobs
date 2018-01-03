@@ -1,0 +1,331 @@
+commit a018cdc92d478d1ae081f8f7cbc014133eb32e7a
+tree 3494a0c9a80abe74e9d1aebf1030bd03fd3bdb83
+parent e9e8c8f506808fa727530f26e3c021e17c96f1aa
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 18:19:39 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 18:19:39 -0600
+
+    Updating the scripts
+
+
+
+:100644 100644 d82aa3d4e8e9b91baa84e3113e561dd14911296f 7e3506bd069920ebd8d4634e0065b0639a4d4f5e M	scripts/CreateTestInstance.sh
+:100644 000000 a6cbc22d131af980967528a2cf01ee14fe3b9e05 0000000000000000000000000000000000000000 D	scripts/deploymentWrapper.sh
+commit e9e8c8f506808fa727530f26e3c021e17c96f1aa
+tree 49fc77760264ad435569ae7ab76cc061f3dab725
+parent 097716d9a22ef29008a2dc5653012d07fe46ceff
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 18:12:44 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 18:12:44 -0600
+
+    Updating Script
+
+
+
+:100644 100644 1b8bf0d78ec5e3a239fc51972c535dc2a6effac8 4ce4bfd89a6211c30405cf1e380b9617bd2a5eb6 M	scripts/CreateStack.sh
+commit 097716d9a22ef29008a2dc5653012d07fe46ceff
+tree 8b162f28a7036db9c79d71585f3f8057810a4fc7
+parent 8d95a61b8c02cf1df376642efd4c8b69902c3c94
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 17:35:01 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 17:35:01 -0600
+
+    Removing ELB ref
+
+
+
+:100644 100644 40364f0d1def1b1b139eef3630753e7a4a6ea765 682c24ee501255c4a9723c13c289c35b56d0b2bd M	cloudformation/asg.json
+commit 8d95a61b8c02cf1df376642efd4c8b69902c3c94
+tree a8c1ad2ec506c0a0c608b88388d9ac08b04788f9
+parent 0999195d8a6d848e2e2b9fafc7a91e0e89eb13f5
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 17:32:14 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 17:32:14 -0600
+
+    Removing the ALB references for testing
+
+
+
+:100644 100644 aeabea6ba25ececd5c188ccb6861f011755b2b61 40364f0d1def1b1b139eef3630753e7a4a6ea765 M	cloudformation/asg.json
+:100644 100644 c5ebcc6eadd0d9765f1d9bdcc6e7b093ab177d41 c36cc433e823e309c82e74c3eb0d962a4085d39d M	cloudformation/elb.json
+:100644 100644 084c5b86fc14cb1386ea3fb1f0a0e307c242b48e e31dec94431095e268c1697338f1b960bae89bc8 M	cloudformation/stack_cloudformation.json
+commit 0999195d8a6d848e2e2b9fafc7a91e0e89eb13f5
+tree f0c0ae04f591a0b76902ef8c5217eb4a857d6ea4
+parent c3b6809836364443e1edcb4b35124d21b12193ab
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 17:27:59 -0600
+committer GitHub <noreply@github.com> 2017-12-20 17:27:59 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 5c8a7ca717312507879f1112b7427427f2cd6100 c5ebcc6eadd0d9765f1d9bdcc6e7b093ab177d41 M	cloudformation/elb.json
+commit c3b6809836364443e1edcb4b35124d21b12193ab
+tree 51b9b9217d0a6e2c35313e4310c530feb2acc203
+parent d20986505def79b875c8f15b079d80b2b9c263f1
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 17:26:17 -0600
+committer GitHub <noreply@github.com> 2017-12-20 17:26:17 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 45c118a56555859b88d31a3f407779143f132e86 5c8a7ca717312507879f1112b7427427f2cd6100 M	cloudformation/elb.json
+commit d20986505def79b875c8f15b079d80b2b9c263f1
+tree 6965df39166a9d3cc03a582072dd48b05e87f4d8
+parent 0b0477f517276f5c7cce7183afb8042b65b6bc37
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 17:20:24 -0600
+committer GitHub <noreply@github.com> 2017-12-20 17:20:24 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 48fc3795863da2cc0ea969160b9043349aabb2a2 45c118a56555859b88d31a3f407779143f132e86 M	cloudformation/elb.json
+commit 0b0477f517276f5c7cce7183afb8042b65b6bc37
+tree 2480b03854be8ee41116b00122ea0d7706ebad54
+parent 09a7454a3d2dc4144411751acf66d5bc9d99ae74
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 17:01:02 -0600
+committer GitHub <noreply@github.com> 2017-12-20 17:01:02 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 95e3b376155bdfd12830fda21258239711c87c25 48fc3795863da2cc0ea969160b9043349aabb2a2 M	cloudformation/elb.json
+commit 09a7454a3d2dc4144411751acf66d5bc9d99ae74
+tree 261153a584f042640558a0cd552686f617d2ff54
+parent 7125ed874986335339b520ad507759f0d937ef7f
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:57:10 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:57:10 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 c36cc433e823e309c82e74c3eb0d962a4085d39d 95e3b376155bdfd12830fda21258239711c87c25 M	cloudformation/elb.json
+commit 7125ed874986335339b520ad507759f0d937ef7f
+tree 63128e4247bcb04b5c929af302c03d7c10b1813a
+parent fc984cbd0b9412bd46f324c8f6c3df2aa38c8354
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:44:39 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:44:39 -0600
+
+    Correcting the port
+
+
+
+:100644 100644 f8cf837387a9a60a00cd4fb9567b3678f42fd29b c36cc433e823e309c82e74c3eb0d962a4085d39d M	cloudformation/elb.json
+commit fc984cbd0b9412bd46f324c8f6c3df2aa38c8354
+tree e0eba081ed37e8eabc554723fe1fb731c1cdd1bb
+parent d3bdd9a98eccf2df042285f180459c711adb873d
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:39:51 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:39:51 -0600
+
+    Correcting the param name
+
+
+
+:100644 100644 a07ff9cf0edc61c556b3d55ef37839aca20124a2 f8cf837387a9a60a00cd4fb9567b3678f42fd29b M	cloudformation/elb.json
+:100644 100644 84a291ce84eb8002dd3551cfb5d5d4c421b88682 084c5b86fc14cb1386ea3fb1f0a0e307c242b48e M	cloudformation/stack_cloudformation.json
+commit d3bdd9a98eccf2df042285f180459c711adb873d
+tree 1901ec90a59437ccdbafdbdc621bc34e66b20e4d
+parent 5d16bdbe8011b720e3a72f26e834d3592f3b7195
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:35:09 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:35:09 -0600
+
+    Adding default health protocol
+
+
+
+:100644 100644 67a2146e2bda593625030dbb45863dd9e1242bf7 a07ff9cf0edc61c556b3d55ef37839aca20124a2 M	cloudformation/elb.json
+commit 5d16bdbe8011b720e3a72f26e834d3592f3b7195
+tree fbf70046c7570b56a50e18fa372db79a5c409026
+parent ce7e98a0547011fd1b35f915e826bbd3b912001e
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:33:13 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:33:13 -0600
+
+    Removing elb name
+
+
+
+:100644 100644 b20c619f815250b38f466b296d6352c6c3e74e53 67a2146e2bda593625030dbb45863dd9e1242bf7 M	cloudformation/elb.json
+commit ce7e98a0547011fd1b35f915e826bbd3b912001e
+tree b8e183091f9bbbe9d760de8dfe22a98bca3ec509
+parent f04ed7d089cef8d4dc6e030e8b33885c34ed63b2
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:31:47 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:31:47 -0600
+
+    Formating json
+
+
+
+:100644 100644 622151612cfbdc17a931c2314e9f336bd34e7f03 b20c619f815250b38f466b296d6352c6c3e74e53 M	cloudformation/elb.json
+commit f04ed7d089cef8d4dc6e030e8b33885c34ed63b2
+tree 8337d92e0ba2bf68ba8c859499e4849bb5085317
+parent bd0bfc6ddf945c0613f2c5ca23532bc92e958352
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:30:17 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:30:17 -0600
+
+    Removing the outputs
+
+
+
+:100644 100644 40fd4b706bc8a0801ba3bc272042ab4a639569a3 622151612cfbdc17a931c2314e9f336bd34e7f03 M	cloudformation/elb.json
+:100644 100644 97c4526108f49780329bb0b40a48999858a83191 84a291ce84eb8002dd3551cfb5d5d4c421b88682 M	cloudformation/stack_cloudformation.json
+commit bd0bfc6ddf945c0613f2c5ca23532bc92e958352
+tree 06aeb748ee5a81f71c44fb7971d685ac97bb2085
+parent 57a682f521776b4c038eefb8bb88374892ae5eb9
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:23:47 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:23:47 -0600
+
+    Formating json
+
+
+
+:100644 100644 217241689cc097ee90a26cc46cf55b10acfe45f4 40fd4b706bc8a0801ba3bc272042ab4a639569a3 M	cloudformation/elb.json
+commit 57a682f521776b4c038eefb8bb88374892ae5eb9
+tree 465e0928b047fc136d861d08f18869484328cb26
+parent ba1b9381c6973e9b07aec799cd26a3a6c6cdd8e1
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:21:43 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:21:43 -0600
+
+    adding the output back
+
+
+
+:100644 100644 8f0f8e22bb1af6cc7f4e079e7d8d4b22957de2cf 97c4526108f49780329bb0b40a48999858a83191 M	cloudformation/stack_cloudformation.json
+commit ba1b9381c6973e9b07aec799cd26a3a6c6cdd8e1
+tree e5fc4509710b86ff45ffa090f77b996e1d777d83
+parent 91b405c403907d22f3ca5a58c1f13a510a7efeaa
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:20:24 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:20:24 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 89dbd47ccd096d974950cb7bb01a6441b1a80d1e 217241689cc097ee90a26cc46cf55b10acfe45f4 M	cloudformation/elb.json
+commit faf7d7f4255d028e0c5fed56b8d59f1b6c3f9ea5
+tree 96731445dcf3242ebeb3d9e6cc5208d1eae10914
+parent d8640afad5d97d9211ee10b7b888687c946246d3
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:15:29 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:15:29 -0600
+
+    Updating to single subnet
+
+
+
+:100644 100644 149c38069cb2540b7e7cf45d8d21287080a8dcef aeabea6ba25ececd5c188ccb6861f011755b2b61 M	cloudformation/asg.json
+:100644 100644 e36f38729bfa6b17016635b0c728238e1c569f60 6b7f0a1baccbcda503b01315d02e0eaa182ffc04 M	cloudformation/elb.json
+:100644 100644 94aa55f26898b3cbe90c6dac433bdd7b68fb8402 8f0f8e22bb1af6cc7f4e079e7d8d4b22957de2cf M	cloudformation/stack_cloudformation.json
+commit 6a03039689850de6386b82eba41a274cf7e98d05
+tree 3310608d893c7c5ad1ea206c4d18c4735468c3b1
+parent d8640afad5d97d9211ee10b7b888687c946246d3
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:10:19 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:10:19 -0600
+
+    Update elb.json
+
+
+
+:100644 100644 e36f38729bfa6b17016635b0c728238e1c569f60 fef1aac6d8801ef428ff7523515b519f77298a82 M	cloudformation/elb.json
+commit d8640afad5d97d9211ee10b7b888687c946246d3
+tree 93f04e314d9f3d0a3fdda5b1e63f08c36296ce3d
+parent 5426014bc6df91c10b2592fbaaed70432da3df3b
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:07:18 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 16:07:18 -0600
+
+    Removing the putputs for testing
+
+
+
+:100644 100644 f3d8eff8b28f15a54b33119427317a1d97dd39d4 e36f38729bfa6b17016635b0c728238e1c569f60 M	cloudformation/elb.json
+commit 5426014bc6df91c10b2592fbaaed70432da3df3b
+tree 157fba9a99853e82acca936ab9aa20665fac37d7
+parent e8180c7edea0fba44e5d2ff299ffbea71aa4515f
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:03:29 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:03:29 -0600
+
+    Update stack_cloudformation.json
+
+
+
+:100644 100644 5254f2af36f793ad92a773acdaabc055570e4f17 94aa55f26898b3cbe90c6dac433bdd7b68fb8402 M	cloudformation/stack_cloudformation.json
+commit e8180c7edea0fba44e5d2ff299ffbea71aa4515f
+tree 5ec1d0a9617da30fe8eae1f86dfe632ab49f8fd3
+parent 2c90992a1229859169a22fe336b85202089d1dea
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:03:16 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:03:16 -0600
+
+    Update stack_cloudformation.json
+
+
+
+:100644 100644 0aec1ba9acd21f875dc6716cbb72b1f630405949 5254f2af36f793ad92a773acdaabc055570e4f17 M	cloudformation/stack_cloudformation.json
+commit 2c90992a1229859169a22fe336b85202089d1dea
+tree 3f109a045aec2d25bdc9467d1639567cd22caa35
+parent 591ee7e95b7cff598f26e920c9d07eece8f2060a
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 16:02:39 -0600
+committer GitHub <noreply@github.com> 2017-12-20 16:02:39 -0600
+
+    removing appelburl
+
+
+
+:100644 100644 927e4ae46d9309a408b5f12eb5d5e75dc0bac604 f3d8eff8b28f15a54b33119427317a1d97dd39d4 M	cloudformation/elb.json
+commit 591ee7e95b7cff598f26e920c9d07eece8f2060a
+tree b537193d336ff73778a60d52b2adaed0bc147a20
+parent b15fadea0fb46fb5645c6d3b74e1e12a14e7abef
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:53:11 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:53:11 -0600
+
+    Updating the ELB
+
+
+
+:100644 100644 272737150eff5a9b64bb91181fe27126beb974a6 927e4ae46d9309a408b5f12eb5d5e75dc0bac604 M	cloudformation/elb.json
+commit b15fadea0fb46fb5645c6d3b74e1e12a14e7abef
+tree 8dc8c569875df3c7b05c9b19be5740b08d391b50
+parent 2db72490975b3feb6530018b40d0b25d20746e40
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:41:38 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:41:38 -0600
+
+    Updating the template urls
+
+
+
+:100644 100644 56aa051ae5032727c2f5887dfeba62a4f3bd40e1 0aec1ba9acd21f875dc6716cbb72b1f630405949 M	cloudformation/stack_cloudformation.json
+commit 2db72490975b3feb6530018b40d0b25d20746e40
+tree a063b0e96655049a6ab77e0e32e99a5a8579b797
+parent d7cd80056b125c05ba8fc3427c365f6f52b6aad5
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:35:55 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:35:55 -0600
+
+    Updating the templates
+
+
+
+:100644 100644 f8d69851a58b21da912c61b9113b01d1ef1e0c7e 149c38069cb2540b7e7cf45d8d21287080a8dcef M	cloudformation/asg.json
+:100644 100644 0bf498e744db444b9bb95c90a72be7bd1d50a9fc 272737150eff5a9b64bb91181fe27126beb974a6 M	cloudformation/elb.json
+:100644 100644 acffca27f39c59339bc89c741d4265f32ae843c8 56aa051ae5032727c2f5887dfeba62a4f3bd40e1 M	cloudformation/stack_cloudformation.json
+commit d7cd80056b125c05ba8fc3427c365f6f52b6aad5
+tree 20541e7fc6c070bf66c9c4c5193b80dfae18baaa
+parent a6d596e1ea310f1915ec4459ec850c282eb24e60
+author Likhith Matta <matta.likhith@gmail.com> 2017-12-20 15:27:17 -0600
+committer GitHub <noreply@github.com> 2017-12-20 15:27:17 -0600
+
+    Updating ELB config
+
+
+
+:100644 100644 545837c2b6fc524000102dbffc516a8c8818e50a 0bf498e744db444b9bb95c90a72be7bd1d50a9fc M	cloudformation/elb.json
+commit a6d596e1ea310f1915ec4459ec850c282eb24e60
+tree 3356d3df2c901e3eb308dabe02b50b550ff601ef
+parent e376746ce6eae367683a4d46589538a6027cc302
+author LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:22:38 -0600
+committer LikhithKumarMatta <likhithkumarmatta@LikhithattasMBP.attlocal.net> 2017-12-20 15:22:38 -0600
+
+    Updating CFT's
+
+
+
+:100644 100644 6143e53f9e36d08e4da5d743017e2c04ca91d86d 255ece8a27fa1043db4797e09b2a95a63b04d13f M	.gitignore
+:100644 100644 5f0d5a1d2be32664685f4b559853a5bf9d340d85 f8d69851a58b21da912c61b9113b01d1ef1e0c7e M	cloudformation/asg.json
+:100644 100644 adbfe280acb7b4bfffd9403ba5c41d3c16ad4a2e 545837c2b6fc524000102dbffc516a8c8818e50a M	cloudformation/elb.json
+:100644 100644 c6bc8b07ebfa868eb090bdc517c17d65ad13e39f acffca27f39c59339bc89c741d4265f32ae843c8 M	cloudformation/stack_cloudformation.json

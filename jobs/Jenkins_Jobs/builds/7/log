@@ -1,0 +1,35 @@
+Started by timer
+Building in workspace /var/lib/jenkins/workspace/Jenkins_Jobs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+[Jenkins_Jobs] $ /bin/sh -xe /tmp/jenkins2549771709952040939.sh
++ git clone https://github.com/likhith-3399/JenkinsJobs.git
+Cloning into 'JenkinsJobs'...
++ cd JenkinsJobs
++ cp /var/lib/jenkins/config.xml /var/lib/jenkins/hudson.model.UpdateCenter.xml /var/lib/jenkins/hudson.plugins.git.GitTool.xml /var/lib/jenkins/hudson.plugins.gradle.Gradle.xml /var/lib/jenkins/hudson.tasks.Ant.xml /var/lib/jenkins/hudson.tasks.Maven.xml /var/lib/jenkins/jenkins.CLI.xml /var/lib/jenkins/jenkins.mvn.GlobalMavenConfig.xml /var/lib/jenkins/nodeMonitors.xml /var/lib/jenkins/org.jenkinsci.plugins.docker.commons.tools.DockerTool.xml /var/lib/jenkins/org.jenkinsci.plugins.gitclient.JGitApacheTool.xml /var/lib/jenkins/org.jenkinsci.plugins.gitclient.JGitTool.xml /var/lib/jenkins/org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer.xml .
++ cp /bin /boot /dev /etc /home /initrd.img /initrd.img.old /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /sys /tmp /usr /var /vmlinuz /vmlinuz.old .
+cp: omitting directory '/bin'
+cp: omitting directory '/boot'
+cp: omitting directory '/dev'
+cp: omitting directory '/etc'
+cp: omitting directory '/home'
+cp: omitting directory '/lib'
+cp: omitting directory '/lib64'
+cp: omitting directory '/lost+found'
+cp: omitting directory '/media'
+cp: omitting directory '/mnt'
+cp: omitting directory '/opt'
+cp: omitting directory '/proc'
+cp: omitting directory '/root'
+cp: omitting directory '/run'
+cp: omitting directory '/sbin'
+cp: omitting directory '/snap'
+cp: omitting directory '/srv'
+cp: omitting directory '/sys'
+cp: omitting directory '/tmp'
+cp: omitting directory '/usr'
+cp: omitting directory '/var'
+cp: cannot open '/vmlinuz' for reading: Permission denied
+cp: cannot open '/vmlinuz.old' for reading: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,36 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Create_Test_Stack
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/Deployment.git
+ > git init /var/lib/jenkins/workspace/Create_Test_Stack # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 24867bb82735988ceae88820eb8862d6d76e0ee0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 24867bb82735988ceae88820eb8862d6d76e0ee0
+Commit message: "root user"
+First time build. Skipping changelog.
+[Create_Test_Stack] $ /bin/bash /tmp/jenkins7304486458380011759.sh
+/tmp/jenkins7304486458380011759.sh: line 2: aws: command not found
+/tmp/jenkins7304486458380011759.sh: line 3: aws: command not found
+/tmp/jenkins7304486458380011759.sh: line 4: cloudformation: command not found
+/tmp/jenkins7304486458380011759.sh: line 5: --stack-name: command not found
+/tmp/jenkins7304486458380011759.sh: line 6: --template-url: command not found
+/tmp/jenkins7304486458380011759.sh: line 8: aws: command not found
+/tmp/jenkins7304486458380011759.sh: line 12: aws: command not found
+Waiting for Cloud Formation to Complete...
+/tmp/jenkins7304486458380011759.sh: line 14:  9351 Terminated              sleep 10
+/tmp/jenkins7304486458380011759.sh: line 12: aws: command not found
+Waiting for Cloud Formation to Complete...
+Build was aborted
+Aborted by [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Finished: ABORTED

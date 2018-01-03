@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4EDXl2DwF+JZY9J0z3qkvq+jIvWHo8onS/dlPP7zfxZ5AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2n0syclHjHggJ9ACV2EQLEAAAA[0mBuild_App" build number [8mha:////4PXDg6pOecS/65Oe29XWgBq2Mtoah9cgFT/6JaDkYwZUAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfafSzJyUeMeCAn1zAKnzsW3FAAAA[0m7
+originally caused by:
+ Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Stage_Artifact_to_S3
+[Stage_Artifact_to_S3] $ /bin/sh -xe /tmp/jenkins8695557401542336603.sh
++ pwd
+/var/lib/jenkins/workspace/Stage_Artifact_to_S3
++ ls -ltr
+total 0
+Finished: SUCCESS

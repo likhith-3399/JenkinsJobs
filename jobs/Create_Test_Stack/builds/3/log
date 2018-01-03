@@ -1,0 +1,50 @@
+Started by user [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Building in workspace /var/lib/jenkins/workspace/Create_Test_Stack
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/likhith-3399/Deployment.git
+ > git init /var/lib/jenkins/workspace/Create_Test_Stack # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/likhith-3399/Deployment.git # timeout=10
+Fetching upstream changes from https://github.com/likhith-3399/Deployment.git
+ > git fetch --tags --progress https://github.com/likhith-3399/Deployment.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 24867bb82735988ceae88820eb8862d6d76e0ee0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 24867bb82735988ceae88820eb8862d6d76e0ee0
+Commit message: "root user"
+ > git rev-list --no-walk 24867bb82735988ceae88820eb8862d6d76e0ee0 # timeout=10
+[Create_Test_Stack] $ /bin/bash /tmp/jenkins538168089795433899.sh
+upload failed: cloudformation/ to s3://cloud-formation-templates-001/cloudformation/ [Errno 21] Is a directory: '/var/lib/jenkins/workspace/Create_Test_Stack/cloudformation/'
+
+An error occurred (AccessDenied) when calling the CreateStack operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+Waiting for Cloud Formation to Complete...
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+Waiting for Cloud Formation to Complete...
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+Waiting for Cloud Formation to Complete...
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+Waiting for Cloud Formation to Complete...
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+Waiting for Cloud Formation to Complete...
+
+An error occurred (AccessDenied) when calling the DescribeStacks operation: User: arn:aws:sts::846095599110:assumed-role/Full_Access_Role_EC2_S3_Route53/i-0eb5fcd4ee8a10eaa is not authorized to perform: cloudformation:DescribeStacks on resource: arn:aws:cloudformation:us-east-1:846095599110:stack/MyApp/*
+Waiting for Cloud Formation to Complete...
+/tmp/jenkins538168089795433899.sh: line 11: 10652 Terminated              sleep 10
+Build was aborted
+Aborted by [8mha:////4NdokpFIi33zllKbFHPqNzv1cO2RhbJEbojKdjKBs2VWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlikhith
+Finished: ABORTED
